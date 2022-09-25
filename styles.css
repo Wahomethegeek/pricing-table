@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+--HavkesBlue: #d5e3fe;
+
+--CrayonBlue: #004df3;
+
+--Lust: #ff2725;
+
+--DarkPastelGreen: #00b341;
+
+--StormDust: #646464;
+
+--Mercury: #e5e5e5;
+
+
+--Mobile: 414px;
+
+--Desktop: 1440px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{ 
+color: #646464;
+
+
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+    display: block;
+    
+}
+.plans-head{
+    font-size: 22px;
+    margin: 20px auto 50px auto;
+     text-align: center;
+    font-weight: 400;
+   line-height: 1.5;
+}
+ .bill{
+    
+    margin-bottom: 30px;
+    color:#646464;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  
+} 
+label{  
+   margin-right: 14px;    
+
+} 
+
+
+
+.radio-custom:checked ~ label{
+    color: #004df3;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    
+}
+
+.table .basic{
+    width: 320px;
+    height: 100%;
+    border: 2px solid #e5e5e5;   
+}
+
+.table .basic:nth-child(2){
+    border-color: #004df3;
+    margin:  0 50px;
+
+}
+.table .basic:nth-child(2):hover {
+    border-color: #d5e3fe;
+}
+.table .basic:nth-child(2):hover .btn-2{
+    background: #d5e3fe;
+    color: #004df3;
+}
+ .head{ 
+    padding: 20px 0;  
+    margin-left: 100px;
+}
+ .head h3{
+    font-weight: 400;
+    font-size: 22px;
+    color: #646464; 
+} 
+.price{
+    display: flex; 
+    align-items: center;
+    margin-left: 3.5rem;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin-bottom: 45px;
+}
+.dollar-sign{
+    font-size: 22px;
+    margin-bottom: 1.2rem;
+    margin-right: .15rem;
+}
+.pro{
+    color: #004df3;
+}
+.annually{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: .5rem;
+    margin-bottom: 0.75rem;
+}
+.service{
+    margin: 15px 40px; 
+}
+
+
+.icon,
+.text{
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 1px;   
+}
+.button{
+    text-align: center;
+    margin: 40px;
+}
+.btn {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: 700;
+    color:#646464;
+    background: #fff;
+    padding: 10px 50px 10px 50px;
+    border: solid #b8c0c4 2px;
+    cursor: pointer;
+}
+.btn-2{
+    background: #004df3;
+    color:#fff;
+    border: none;
+}
+@media only screen and (max-width:700px ) {
+    .bill{
+        display: flex;
+        flex-direction: column;  
+        line-height: 2;
+
+    }
+    .month{
+        margin-right: 5rem ;
+    }
+    .table{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0 80px 0;
+    }
+    .table .basic:nth-child(2){
+        margin: 50px;
+    }
+    
+    
+}
+ @media only screen and (max-width:900px ){
+    .table{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .table .basic:nth-child(3){
+        margin: 30px;
+    }
+
+} 
