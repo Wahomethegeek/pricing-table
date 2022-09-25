@@ -1,28 +1,27 @@
 ## This project is from Web Developer Mentor community! 
 
-&nbsp;
 
-### What to do when you completed the challenge?
+### Solution to the challenge
 
-First you need to make your challenge visible to others. Yoy can do so by uploading it to one of the free static hosting providers. Below is the list of the most popular ones:
+This is a solution to the [princing-table](https://github.com/Wahomethegeek/pricing-table.git)
 
--   [Netlify](https://www.netlify.com/) - recommended
--   [GitHub Pages](https://pages.github.com/)
--   [Vercel](https://vercel.com)
--   [Google Firebase](https://firebase.google.com/)
--   [Render](https://render.com/)
+The live preview, I hosted my website in vercel: [live-preview](https://pricing-table-wahome.vercel.app/)
 
-If you're not familiar with how to set up your deployment process with Netlify, please check this [video tutorial by TraversyMedia](https://www.youtube.com/watch?v=bjVUqvcCnxM&ab_channel=TraversyMedia)
 
-### How to submit your solution to WebDeveloperMentor
+### Screenshot
 
-In order to submit your solution please follow these steps:
+![Desktop screenshot](./image/Screenshot%202022-09-26%20at%2000-41-11%20Pricing%20Table.png)
+![Tablet screenshot](./image/Screenshot%202022-09-26%20at%2000-41-34%20Pricing%20Table.png)
+![Mobile screenshot](./image/Screenshot%202022-09-26%20at%2000-40-52%20Pricing%20Table.png)
 
-1. Go to 'Web developer mentor' [submit challenge solution page](https://webdevelopermentor.com/solution/create)
-2. Click 'Submit Solution' button next to the challenge.
+## My process
 
-You will be prompted to enter Title, Github repoitory URL, Live preview URL (can be Netlify, Vercel, Github Pages or even your own server), and tell the community what challenges you've faced.
+### Built with
 
-### Join our community on Discord
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow using media query
 
-~~You can join our [Free Discord Server ](https://discord.com) if you want communicate with other members or ask questions regarding your challenges.~~
+## Author
+ 
+ - Twitter  - [wahomekelvin](https://twitter.com/_Wahomekelvin)
