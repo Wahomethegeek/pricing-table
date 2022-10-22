@@ -34,6 +34,7 @@ body{
     display: block;
     
 }
+
 .plans-head{
     font-size: 22px;
     margin: 20px auto 50px auto;
@@ -57,8 +58,8 @@ label{
 } 
 
 
-
-.radio-custom:checked ~ label{
+/* when the input type is selected it turns to the specified color */
+.radio-custom:checked ~ label{ 
     color: #004df3;
 }
 .table{
